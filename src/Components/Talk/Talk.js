@@ -39,7 +39,7 @@ class Talk extends Component {
     )
   }
 
-  loadbotmessage(){
+  /* loadbotmessage(){
     var latestmessage = this.state.history[this.state.history.length-1];
     // spellChecker(latestmessage, (res) => {
     //   console.log(res);
@@ -52,7 +52,7 @@ class Talk extends Component {
       });
       this.forceUpdate();
     });
-  }
+  } */
 
   loadmessage(message){
     this.setState((prevState) => {
